@@ -1,1 +1,1 @@
-# go-theses-18-Daan-Jesper-Kars-Anarchism-Agendas-Pin-Buttons
+# go-theses-18-daan-jesper-kars-anarchism-agendas-pin-buttons
