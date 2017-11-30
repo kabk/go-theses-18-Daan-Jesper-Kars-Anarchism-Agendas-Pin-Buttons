@@ -4,7 +4,7 @@ body {
 
 #abstract {
 	font-size: 22.5px;
-	font-family: 'F Grotesk';
+	font-family: 'F Grotesk', sans-serif;
 	width: 60%;
 	background-color: transparent;
 	margin: auto;
