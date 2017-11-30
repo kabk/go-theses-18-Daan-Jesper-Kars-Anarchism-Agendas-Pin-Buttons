@@ -1,5 +1,18 @@
-body
+body {
+	margin: 0;
+}
 
 #abstract {
-	font-size: 20px;
+	font-size: 22.5px;
+	font-family: 'F Grotesk';
+	width: 60%;
+	background-color: transparent;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+blockquote {
+	display: inline;
+	padding-left: 50px;
 }
