@@ -11,14 +11,13 @@ body {
 	text-align: center;
 	margin: auto;
 	width: 100%;
-	position: fixed;
 }
 
 #abstractcontainer {
 	width: 100%;
-	margin-top: 150px;
 	overflow: scroll;
-	position: absolute;
+	float: left;
+	margin:0;
 }
 
 #date1 {
@@ -27,18 +26,16 @@ body {
 	line-height: 30px;
 	text-align: center;
 	float: right;
-	padding-right: 50px;
+	width: 40%;
 }
 
 #abstract1 {
 	font-size: 22.5px;
 	font-family: 'F Grotesk', sans-serif;
 	width: 60%;
-	background-color: transparent;
 	margin: auto;
 	float: left;
 	padding-top: 30px;
-	padding-left: 50px;
 	padding-bottom: 30px;
 }
 
@@ -46,7 +43,6 @@ body {
 	font-size: 22.5px;
 	font-family: 'F Grotesk', sans-serif;
 	width: 60%;
-	background-color: transparent;
 	margin: auto;
 	float: right;
 	padding-top: 30px;
@@ -59,7 +55,6 @@ body {
 	font-size: 22.5px;
 	font-family: 'F Grotesk', sans-serif;
 	width: 60%;
-	background-color: transparent;
 	margin: auto;
 	float: left;
 	padding-top: 30px;
