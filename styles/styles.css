@@ -40,6 +40,15 @@ body {
 	padding-left: 50px;
 }
 
+#date2 {
+	font-family: 'Aramat-Stencil';
+	font-size: 40px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	width: 35%;
+}
+
 #abstract2 {
 	font-size: 22.5px;
 	font-family: 'F Grotesk', sans-serif;
@@ -47,9 +56,17 @@ body {
 	margin: auto;
 	float: right;
 	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
 	padding-bottom: 30px;
+	padding-left: 50px;
+}
+
+#date3 {
+	font-family: 'Aramat-Stencil';
+	font-size: 40px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	width: 35%;
 }
 
 #abstract3 {
@@ -59,8 +76,8 @@ body {
 	margin: auto;
 	float: left;
 	padding-top: 30px;
-	padding-left: 50px;
 	padding-bottom: 30px;
+	padding-left: 50px;
 }
 
 blockquote {
