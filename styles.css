@@ -2,13 +2,68 @@ body {
 	margin: 0;
 }
 
-#abstract {
+#betaabstract {
+	font-family: 'Aramat-Stencil';
+	font-size: 60px;
+	line-height: 60px;
+	padding-top: 20px;
+	letter-spacing: -3px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	position: fixed;
+}
+
+#abstractcontainer {
+	width: 100%;
+	margin-top: 150px;
+	overflow: scroll;
+	position: absolute;
+}
+
+#date1 {
+	font-family: 'Aramat-Stencil';
+	font-size: 40px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	padding-right: 50px;
+}
+
+#abstract1 {
 	font-size: 22.5px;
 	font-family: 'F Grotesk', sans-serif;
 	width: 60%;
 	background-color: transparent;
 	margin: auto;
+	float: left;
 	padding-top: 30px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+
+#abstract2 {
+	font-size: 22.5px;
+	font-family: 'F Grotesk', sans-serif;
+	width: 60%;
+	background-color: transparent;
+	margin: auto;
+	float: right;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+
+#abstract3 {
+	font-size: 22.5px;
+	font-family: 'F Grotesk', sans-serif;
+	width: 60%;
+	background-color: transparent;
+	margin: auto;
+	float: left;
+	padding-top: 30px;
+	padding-left: 50px;
 	padding-bottom: 30px;
 }
 
