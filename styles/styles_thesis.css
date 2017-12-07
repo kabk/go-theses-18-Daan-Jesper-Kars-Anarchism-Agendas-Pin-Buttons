@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'proteststencil';
+    src: url('font/proteststencil-webfont.eot');
+    src: url('font/proteststencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/proteststencil-webfont.woff2') format('woff2'),
+         url('font/proteststencil-webfont.woff') format('woff'),
+         url('font/proteststencil-webfont.ttf') format('truetype'),
+         url('font/proteststencil-webfont.svg#proteststencilproteststencil') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aramat';
+    src: url('font/aramat-webfont.eot');
+    src: url('font/aramat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/aramat-webfont.woff2') format('woff2'),
+         url('font/aramat-webfont.woff') format('woff'),
+         url('font/aramat-webfont.ttf') format('truetype'),
+         url('font/aramat-webfont.svg#aramatsans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#title {
+	font-family: 'proteststencil', sans-serif;
+	font-size: 60px;
+	line-height: 60px;
+	padding-top: 20px;
+	letter-spacing: -4px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	color: black;
+}
+
+#abstract1 {
+	font-size: 22.5px;
+	font-family: 'aramat', sans-serif;
+	line-height: 25px;
+	width: 60%;
+	margin: auto;
+	float: left;
+	padding-right: 40%;
+	padding-left: 1%;
+	color: black;
+}
+
+blockquote {
+	display: inline;
+	padding-left: 50px;
+}
