@@ -1,57 +1,297 @@
-@font-face {
-    font-family: 'proteststencil';
-    src: url('font/proteststencil-webfont.eot');
-    src: url('font/proteststencil-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/proteststencil-webfont.woff2') format('woff2'),
-         url('font/proteststencil-webfont.woff') format('woff'),
-         url('font/proteststencil-webfont.ttf') format('truetype'),
-         url('font/proteststencil-webfont.svg#proteststencilproteststencil') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'aramat';
-    src: url('font/aramat-webfont.eot');
-    src: url('font/aramat-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/aramat-webfont.woff2') format('woff2'),
-         url('font/aramat-webfont.woff') format('woff'),
-         url('font/aramat-webfont.ttf') format('truetype'),
-         url('font/aramat-webfont.svg#aramatsans') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
 	margin: 0;
-	overflow-x: hidden;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: url('cursor/cursor.cur'), auto;
+    color: black;
 }
 
-#title {
-	font-family: 'proteststencil', sans-serif;
+button {
+    z-index: 16;
+    position: fixed;
+    text-decoration: none;
+    border:none;
+    background-color: #01689b;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+button:active {
+outline: none;
+border: none;
+background-color: white;
+color: #01689b;
+}
+
+button:focus {outline:0;}
+
+#sketch {
+    position: absolute;
+    width: 100%;
+    height: 4000px;
+    mix-blend-mode: multiply;
+}
+
+#paint {
+    max-width: 100%;
+    position: absolute;
+}
+
+#logo {
+    z-index: 10;
 	font-size: 60px;
-	line-height: 60px;
-	padding-top: 20px;
-	letter-spacing: -4px;
 	text-align: center;
 	margin: auto;
 	width: 100%;
-	color: black;
+    position: fixed;
+    background-color: white;
 }
 
-#abstract1 {
-	font-size: 22.5px;
-	font-family: 'aramat', sans-serif;
-	line-height: 25px;
-	width: 60%;
-	margin: auto;
-	float: left;
-	padding-right: 40%;
-	padding-left: 1%;
-	color: black;
+#header img {
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 100px;
 }
 
-blockquote {
-	display: inline;
-	padding-left: 50px;
+#body_01 {
+        font-size: 15px;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 25px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+    #body_02 {
+        font-size: 15px;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 25px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+    #footnote_01 {
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-top: 0;
+        width: 10%;
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 15px;
+        font-size:12.5px;
+    }
+
+    #nav_01 {
+        font-size: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 25px;
+        width: 50%;
+        margin-top: -5px;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        vertical-align: center;
+        background-color: #01689b;
+        color: white;
+    }
+
+    #chaptertitle_01 {
+        font-size: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        line-height: 32.5px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+    #intro_01 {
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 30px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+
+     #chaptertitle_02 {
+        font-size: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        line-height: 32.5px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+    #intro_02 {
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 30px;
+        width: 50%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+    }
+
+    #footnote_02 {
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-top: 0;
+        width: 10%;
+        left: 0;
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 15px;
+        font-size:12.5px;
+    }
+
+    #startamovement {
+        z-index: 9;
+        width: 25%;
+        position: absolute;
+        right: 0;
+        float: right;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 15px;
+        font-size:12.5px;
+        mix-blend-mode: color;
+    }
+
+     #startamovement img {
+        cursor: move;
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10px;
+     }
+
+     #civilright_01 {
+        z-index: 9;
+        width: 25%;
+        position: absolute;
+        right: 0;
+        float: right;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 15px;
+        font-size:12.5px;
+        mix-blend-mode: color;
+    }
+
+    #civilright_01 img {
+        cursor: move;
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10px;
+     }
+
+@media only print {
+    #body_01 {
+        font-size: 10pt;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 12pt;
+        width: 70%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+        page-break-after: always;
+    }
+
+    #footnote_01 {
+        padding-left: 5%;
+        padding-right: 15%;
+        top: 420px;
+        width: 18%;
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 9pt;
+        font-size:7pt;
+    }
+
+    #nav_01 {
+        font-size: 16pt;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 18pt;
+        width: 70%;
+        margin-top: -4px;
+        float: left;
+        padding-left: 25%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        vertical-align: center;
+        background-color: #01689b;
+        color: white;
+    }
+
+    #chaptertitle_01 {
+        font-size: 16pt;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        line-height: 18pt;
+        width: 70%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+    }
+
+    #intro_01 {
+        font-size: 14pt;
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 16pt;
+        width: 70%;
+        margin: auto;
+        float: left;
+        padding-left: 25%;
+        padding-right: 5%;
+        padding-top: 2.5%;
+        page-break-after: always;
+    }
+
+    #logo {
+        z-index: 10;
+        font-size: 60px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+    }
+
+    button {
+        display: none;
+    }
 }
