@@ -1,7 +1,31 @@
+@font-face {
+    font-family: 'INGMeWeb-Regular';
+    src: url(font/INGMeWeb-Regular.woff);
+}
+
+@font-face {
+    font-family: 'INGMeWeb-Bold';
+    src: url(font/INGMeWeb-Bold.woff);
+}
+
+@font-face {
+    font-family: 'EuclidFlex-Light';
+    src: url(font/EuclidFlex-Light.woff);
+}
+
+@font-face {
+    font-family: 'EuclidFlex-Regular';
+    src: url(font/EuclidFlex-Regular.woff);
+}
+
+@font-face {
+    font-family: 'EuclidFlex-Bold';
+    src: url(font/EuclidFlex-Bold.woff);
+}
+
 body {
 	margin: 0;
     overflow-x: hidden;
-    font-family: 'Noto Sans', sans-serif;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -11,7 +35,7 @@ body {
 }
 
 button {
-    z-index: 16;
+    z-index: 100;
     position: fixed;
     text-decoration: none;
     border:none;
@@ -22,19 +46,19 @@ button {
 }
 
 button:active {
-outline: none;
-border: none;
-background-color: white;
-color: #01689b;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #01689b;
 }
 
 button:focus {outline:0;}
 
 #sketch {
+    z-index: 99;
     position: absolute;
     width: 100%;
-    height: 4000px;
-    mix-blend-mode: multiply;
+    height: 7000px;
 }
 
 #paint {
@@ -43,12 +67,11 @@ button:focus {outline:0;}
 }
 
 #logo {
-    z-index: 10;
 	font-size: 60px;
 	text-align: center;
 	margin: auto;
 	width: 100%;
-    position: fixed;
+    position: absolute;
     background-color: white;
 }
 
@@ -60,134 +83,261 @@ button:focus {outline:0;}
     margin-top: 100px;
 }
 
+#nav_01 {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 25px;
+    width: 50%;
+    margin-top: -5px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    vertical-align: center;
+    background-color: #01689b;
+    color: white;
+}
+
+#chaptertitle_01 {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    line-height: 32.5px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+}
+
+#intro_01 {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 30px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 #body_01 {
-        font-size: 15px;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 25px;
-        width: 50%;
-        margin: auto;
-        float: left;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 2.5%;
-    }
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 30px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+    border-bottom: 1px solid lightgray;
+}
 
-    #footnote_01 {
-        padding-left: 10%;
-        padding-right: 5%;
-        padding-top: 0;
-        width: 10%;
-        position: absolute;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 15px;
-        font-size:12.5px;
-    }
+#footnote_01 {
+    left: 5%;
+    width: 10%;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 15px;
+    font-size:12.5px;
+}
 
-    #nav_01 {
-        font-size: 25px;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 25px;
-        width: 50%;
-        margin-top: -5px;
-        float: left;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        vertical-align: center;
-        background-color: #01689b;
-        color: white;
-    }
+#chaptertitle_02 {
+    font-size: 35px;
+    font-family: 'INGMeWeb-Bold', sans-serif;
+    font-weight: bold;
+    line-height: 32.5px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    padding-left: 5%;
+    padding-right: 35%;
+    padding-top: 2.5%;
+    color: #ff5f26;
+}
 
-    #chaptertitle_01 {
-        font-size: 25px;
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: bold;
-        line-height: 32.5px;
-        width: 50%;
-        margin: auto;
-        float: left;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 2.5%;
-    }
+#intro_02 {
+    font-size: 22px;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 25px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 5%;
+    margin-right: 35%;
+    padding-top: 2.5%;
+    color: #333333;
+}
 
-    #intro_01 {
-        font-size: 20px;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 30px;
-        width: 50%;
-        margin: auto;
-        float: left;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 2.5%;
-    }
+#body_02 {
+    font-size: 17px;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 25px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 5%;
+    margin-right: 35%;
+    padding-top: 2.5%;
+    color: #595959;
+}
 
-    #chaptertitle_02 {
-        font-size: 25px;
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: bold;
-        line-height: 32.5px;
-        width: 50%;
-        margin: auto;
-        float: left;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 2.5%;
-    }
+#footnote_02 {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    right: 0;
+    margin-right: 5%;
+    position: absolute;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 15px;
+    font-size:12.5px;
+    border: 1px solid lightgray;
+    color: #595959;
+}
 
-    #footnote_02 {
-        padding-left: 10%;
-        padding-right: 5%;
-        padding-top: 0;
-        width: 10%;
-        left: 0;
-        position: absolute;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 15px;
-        font-size:12.5px;
-    }
+#startamovement {
+    width: 110%;
+    left: 5%;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 15px;
+    font-size:12.5px;
+    margin-top: 10px;
+}
 
-    #startamovement {
-        z-index: 9;
-        width: 25%;
-        position: absolute;
-        right: 0;
-        float: right;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 15px;
-        font-size:12.5px;
-        mix-blend-mode: color;
-    }
+#startamovement img {
+    max-width: 45%;
+}
 
-     #startamovement img {
-        cursor: move;
-        max-width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-bottom: 10px;
-     }
+#footnote_03 {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    right: 0;
+    margin-right: 5%;
+    position: absolute;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 15px;
+    font-size:12.5px;
+    border: 1px solid lightgray;
+    color: #595959;
+}
 
-     #civilright_01 {
-        z-index: 9;
-        width: 25%;
-        position: absolute;
-        right: 0;
-        float: right;
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 15px;
-        font-size:12.5px;
-        mix-blend-mode: color;
-    }
+#civilright_01 {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 100px;
+    position: absolute;
+    font-family: 'INGMeWeb-Regular', sans-serif;
+    line-height: 15px;
+    font-size:12.5px;
+    border: 1px solid lightgray;
+    color: #595959;
+}
 
-    #civilright_01 img {
-        cursor: move;
-        max-width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-bottom: 10px;
-     }
+#civilright_01 img {
+    max-width: 100%;
+}
+
+#body_03 {
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    line-height: 20px;
+    width: 85%;
+    padding-top: 250px;
+    margin: auto;
+    float: left;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    color:#404040;
+}
+
+#alternative_01 {
+    margin-top: 50px;
+    margin-bottom: 125px;
+    padding-top: 50px;
+    border-top: 3px solid #fdcd47;
+}
+
+#alternative_01 img {
+    width: 25%;
+    left: 0;
+    float: left;
+    margin-right: 50px;
+}
+
+#alternative_02 {
+    margin-top: 50px;
+    margin-bottom: 125px;
+    padding-top: 50px;
+    border-top: 3px solid #fdcd47;
+}
+
+#alternative_02 img {
+    width: 25%;
+    left: 0;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+#chaptertitle_04 {
+    font-size: 35px;
+    font-family: 'EuclidFlex-Bold', sans-serif;
+    font-weight: bold;
+    line-height: 32.5px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+    color: #009a7b;
+}
+
+#intro_04 {
+    font-size: 27px;
+    font-family: 'EuclidFlex-Regular', sans-serif;
+    line-height: 35px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #005554;
+}
+
+#body_04 {
+    font-size: 15px;
+    font-family: 'EuclidFlex-Light', sans-serif;
+    line-height: 25px;
+    width: 60%;
+    margin: auto;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+    color: #005554;
+}
+
+#body_04 img {
+    width: 100%;
+}
 
 @media only print {
 
