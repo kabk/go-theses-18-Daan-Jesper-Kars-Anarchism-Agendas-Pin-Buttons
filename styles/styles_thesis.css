@@ -250,7 +250,7 @@ button:focus {outline:0;}
 }
 
 #chaptertitle_01 {
-    font-size: 25px;
+    font-size: 32.5px;
     font-family: 'rijksoverheidsanstext-bold-webfont', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
@@ -263,9 +263,9 @@ button:focus {outline:0;}
 }
 
 #intro_01 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'rijksoverheidsanstext-italic-webfont', sans-serif;
-    line-height: 30px;
+    line-height: 37.5px;
     width: 60%;
     margin: auto;
     float: left;
@@ -274,9 +274,9 @@ button:focus {outline:0;}
 }
 
 #body_01 {
-    font-size: 15px;
+    font-size: 17.5px;
     font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
-    line-height: 30px;
+    line-height: 32px;
     width: 60%;
     margin: auto;
     float: left;
