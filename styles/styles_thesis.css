@@ -1,26 +1,41 @@
 @font-face {
+    font-family: 'rijksoverheidsanstext-regular-webfont';
+    src: url(font/Rijksoverheid/rijksoverheidsanstext-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'rijksoverheidsanstext-italic-webfont';
+    src: url(font/Rijksoverheid/rijksoverheidsanstext-italic-webfont.woff);
+}
+
+@font-face {
+    font-family: 'rijksoverheidsanstext-bold-webfont';
+    src: url(font/Rijksoverheid/rijksoverheidsanstext-bold-webfont.woff);
+}
+
+@font-face {
     font-family: 'INGMeWeb-Regular';
-    src: url(font/INGMeWeb-Regular.woff);
+    src: url(font/INGBank/INGMeWeb-Regular.woff);
 }
 
 @font-face {
     font-family: 'INGMeWeb-Bold';
-    src: url(font/INGMeWeb-Bold.woff);
+    src: url(font/INGBank/INGMeWeb-Bold.woff);
 }
 
 @font-face {
     font-family: 'EuclidFlex-Light';
-    src: url(font/EuclidFlex-Light.woff);
+    src: url(font/AholdDelhaize/EuclidFlex-Light.woff);
 }
 
 @font-face {
     font-family: 'EuclidFlex-Regular';
-    src: url(font/EuclidFlex-Regular.woff);
+    src: url(font/AholdDelhaize/EuclidFlex-Regular.woff);
 }
 
 @font-face {
     font-family: 'EuclidFlex-Bold';
-    src: url(font/EuclidFlex-Bold.woff);
+    src: url(font/AholdDelhaize/EuclidFlex-Bold.woff);
 }
 
 body {
