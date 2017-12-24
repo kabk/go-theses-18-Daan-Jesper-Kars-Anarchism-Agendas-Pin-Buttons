@@ -38,6 +38,141 @@
     src: url(font/AholdDelhaize/EuclidFlex-Bold.woff);
 }
 
+@font-face {
+    font-family: 'DINLig';
+    src: url(font/Unilever/DINLig.woff);
+}
+
+@font-face {
+    font-family: 'GT-America-Regular';
+    src: url(font/Politie/GT-America-Regular.woff);
+}
+
+@font-face {
+    font-family: 'GT-America-Regular-Italic';
+    src: url(font/Politie/GT-America-Regular-Italic.woff);
+}
+
+@font-face {
+    font-family: 'GT-America-Bold';
+    src: url(font/Politie/GT-America-Bold.woff);
+}
+
+@font-face {
+    font-family: 'GT-America-Bold-Italic';
+    src: url(font/Politie/GT-America-Bold-Italic.woff);
+}
+
+@font-face {
+    font-family: 'HelveNeuRom';
+    src: url(font/NOS/HelveNeuRom.woff);
+}
+
+@font-face {
+    font-family: 'HelveNeuIta';
+    src: url(font/NOS/HelveNeuIta.woff);
+}
+
+@font-face {
+    font-family: 'HelveNeuMed';
+    src: url(font/NOS/HelveNeuMed.woff);
+}
+
+@font-face {
+    font-family: 'HelveNeuMedIta';
+    src: url(font/NOS/HelveNeuMedIta.woff);
+}
+
+@font-face {
+    font-family: 'PTSans_Regular';
+    src: url(font/Reaal/PTSans_Regular.woff);
+}
+
+@font-face {
+    font-family: 'PTSans_Italic';
+    src: url(font/Reaal/PTSans_Italic.woff);
+}
+
+@font-face {
+    font-family: 'PTSans_Bold';
+    src: url(font/Reaal/PTSans_Bold.woff);
+}
+
+@font-face {
+    font-family: 'PTSans_BoldItalic';
+    src: url(font/Reaal/PTSans_BoldItalic.woff);
+}
+
+@font-face {
+    font-family: 'omnes_medium-webfont';
+    src: url(font/Reaal/omnes_medium-webfont.woff);
+}
+
+@font-face {
+    font-family: 'TheSansPlain';
+    src: url(font/GemeenteDenHaag/TheSansPlain.woff);
+}
+
+@font-face {
+    font-family: 'TheSansPlainItalic';
+    src: url(font/GemeenteDenHaag/TheSansPlainItalic.woff);
+}
+
+@font-face {
+    font-family: 'TheMixSemiLight-Plain';
+    src: url(font/GemeenteDenHaag/TheMixSemiLight-Plain.woff);
+}
+
+@font-face {
+    font-family: 'TheMixSemiLight-Italic';
+    src: url(font/GemeenteDenHaag/TheMixSemiLight-Italic.woff);
+}
+
+@font-face {
+    font-family: 'TheMixSemiBold-Plain';
+    src: url(font/GemeenteDenHaag/TheMixSemiBold-Plain.woff);
+}
+
+@font-face {
+    font-family: 'TheMixSemiBold-Italic';
+    src: url(font/GemeenteDenHaag/TheMixSemiBold-Italic.woff);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(font/RijkZwaan/OpenSans-Regular.woff);
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url(font/RijkZwaan/OpenSans-Italic.woff);
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(font/RijkZwaan/OpenSans-Bold.woff);
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url(font/RijkZwaan/OpenSans-BoldItalic.woff);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(font/VVD/InterReg.woff);
+}
+
+@font-face {
+    font-family: 'InterBol';
+    src: url(font/VVD/InterBol.woff);
+}
+
+@font-face {
+    font-family: 'InterBolCon';
+    src: url(font/VVD/InterBolCon.woff);
+}
+
 body {
 	margin: 0;
     overflow-x: hidden;
@@ -100,7 +235,7 @@ button:focus {outline:0;}
 
 #nav_01 {
     font-size: 25px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
     line-height: 25px;
     width: 50%;
     margin-top: -5px;
@@ -116,7 +251,7 @@ button:focus {outline:0;}
 
 #chaptertitle_01 {
     font-size: 25px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'rijksoverheidsanstext-bold-webfont', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -129,7 +264,7 @@ button:focus {outline:0;}
 
 #intro_01 {
     font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'rijksoverheidsanstext-italic-webfont', sans-serif;
     line-height: 30px;
     width: 60%;
     margin: auto;
@@ -140,7 +275,7 @@ button:focus {outline:0;}
 
 #body_01 {
     font-size: 15px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
     line-height: 30px;
     width: 60%;
     margin: auto;
@@ -155,7 +290,7 @@ button:focus {outline:0;}
     left: 5%;
     width: 10%;
     position: absolute;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
     line-height: 15px;
     font-size:12.5px;
 }
