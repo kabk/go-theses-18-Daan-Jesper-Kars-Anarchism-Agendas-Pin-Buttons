@@ -1,84 +1,4 @@
 @font-face {
-    font-family: 'rijksoverheidsanstext-regular-webfont';
-    src: url(font/Rijksoverheid/rijksoverheidsanstext-regular-webfont.woff);
-}
-
-@font-face {
-    font-family: 'rijksoverheidsanstext-italic-webfont';
-    src: url(font/Rijksoverheid/rijksoverheidsanstext-italic-webfont.woff);
-}
-
-@font-face {
-    font-family: 'rijksoverheidsanstext-bold-webfont';
-    src: url(font/Rijksoverheid/rijksoverheidsanstext-bold-webfont.woff);
-}
-
-@font-face {
-    font-family: 'INGMeWeb-Regular';
-    src: url(font/INGBank/INGMeWeb-Regular.woff);
-}
-
-@font-face {
-    font-family: 'INGMeWeb-Bold';
-    src: url(font/INGBank/INGMeWeb-Bold.woff);
-}
-
-@font-face {
-    font-family: 'EuclidFlex-Light';
-    src: url(font/AholdDelhaize/EuclidFlex-Light.woff);
-}
-
-@font-face {
-    font-family: 'EuclidFlex-Regular';
-    src: url(font/AholdDelhaize/EuclidFlex-Regular.woff);
-}
-
-@font-face {
-    font-family: 'EuclidFlex-Bold';
-    src: url(font/AholdDelhaize/EuclidFlex-Bold.woff);
-}
-
-@font-face {
-    font-family: 'GT-America-Regular';
-    src: url(font/Politie/GT-America-Regular.woff);
-}
-
-@font-face {
-    font-family: 'GT-America-Regular-Italic';
-    src: url(font/Politie/GT-America-Regular-Italic.woff);
-}
-
-@font-face {
-    font-family: 'GT-America-Bold';
-    src: url(font/Politie/GT-America-Bold.woff);
-}
-
-@font-face {
-    font-family: 'GT-America-Bold-Italic';
-    src: url(font/Politie/GT-America-Bold-Italic.woff);
-}
-
-@font-face {
-    font-family: 'HelveNeuRom';
-    src: url(font/NOS/HelveNeuRom.woff);
-}
-
-@font-face {
-    font-family: 'HelveNeuIta';
-    src: url(font/NOS/HelveNeuIta.woff);
-}
-
-@font-face {
-    font-family: 'HelveNeuMed';
-    src: url(font/NOS/HelveNeuMed.woff);
-}
-
-@font-face {
-    font-family: 'HelveNeuMedIta';
-    src: url(font/NOS/HelveNeuMedIta.woff);
-}
-
-@font-face {
     font-family: 'PTSans_Regular';
     src: url(font/Reaal/PTSans_Regular.woff);
 }
@@ -96,41 +16,6 @@
 @font-face {
     font-family: 'PTSans_BoldItalic';
     src: url(font/Reaal/PTSans_BoldItalic.woff);
-}
-
-@font-face {
-    font-family: 'omnes_medium-webfont';
-    src: url(font/Reaal/omnes_medium-webfont.woff);
-}
-
-@font-face {
-    font-family: 'TheSansPlain';
-    src: url(font/GemeenteDenHaag/TheSansPlain.woff);
-}
-
-@font-face {
-    font-family: 'TheSansPlainItalic';
-    src: url(font/GemeenteDenHaag/TheSansPlainItalic.woff);
-}
-
-@font-face {
-    font-family: 'TheMixSemiLight-Plain';
-    src: url(font/GemeenteDenHaag/TheMixSemiLight-Plain.woff);
-}
-
-@font-face {
-    font-family: 'TheMixSemiLight-Italic';
-    src: url(font/GemeenteDenHaag/TheMixSemiLight-Italic.woff);
-}
-
-@font-face {
-    font-family: 'TheMixSemiBold-Plain';
-    src: url(font/GemeenteDenHaag/TheMixSemiBold-Plain.woff);
-}
-
-@font-face {
-    font-family: 'TheMixSemiBold-Italic';
-    src: url(font/GemeenteDenHaag/TheMixSemiBold-Italic.woff);
 }
 
 @font-face {
@@ -156,16 +41,6 @@
 @font-face {
     font-family: 'OpenSans-BoldItalic';
     src: url(font/RijkZwaan/OpenSans-BoldItalic.woff);
-}
-
-@font-face {
-    font-family: 'Interstate-Regular';
-    src: url(font/VVD/Interstate-Regular.woff);
-}
-
-@font-face {
-    font-family: 'Interstate-Bold';
-    src: url(font/VVD/Interstate-Bold.woff);
 }
 
 body {
@@ -289,7 +164,7 @@ button:focus {outline:0;}
 
 #nav_01 {
     font-size: 25px;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 25px;
     width: 50%;
     margin-top: -5px;
@@ -305,7 +180,7 @@ button:focus {outline:0;}
 
 #end {
     font-size: 25px;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 25px;
     width: 50%;
     margin-top: -5px;
@@ -321,7 +196,7 @@ button:focus {outline:0;}
 
 #chaptertitle_01 {
     font-size: 32.5px;
-    font-family: 'rijksoverheidsanstext-bold-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -334,7 +209,7 @@ button:focus {outline:0;}
 
 #intro_01 {
     font-size: 25px;
-    font-family: 'rijksoverheidsanstext-italic-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 37.5px;
     width: 60%;
     margin: auto;
@@ -345,7 +220,7 @@ button:focus {outline:0;}
 
 #body_01 {
     font-size: 17.5px;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 32px;
     width: 60%;
     margin: auto;
@@ -362,7 +237,7 @@ button:focus {outline:0;}
     left: 5%;
     width: 10%;
     position: absolute;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 15px;
     font-size:12.5px;
 }
@@ -371,14 +246,14 @@ button:focus {outline:0;}
     left: 5%;
     width: 10%;
     position: absolute;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 15px;
     font-size:12.5px;
 }
 
 #chaptertitle_02 {
     font-size: 35px;
-    font-family: 'INGMeWeb-Bold', sans-serif;
+    font-family: 'Convergence', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -392,7 +267,7 @@ button:focus {outline:0;}
 
 #intro_02 {
     font-size: 22px;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 25px;
     width: 60%;
     margin: auto;
@@ -405,7 +280,7 @@ button:focus {outline:0;}
 
 #body_02 {
     font-size: 17px;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 25px;
     width: 60%;
     margin: auto;
@@ -426,7 +301,7 @@ button:focus {outline:0;}
     right: 0;
     margin-right: 5%;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -436,7 +311,7 @@ button:focus {outline:0;}
 #startamovement {
     width: 110%;
     left: 5%;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     margin-top: 10px;
@@ -456,7 +331,7 @@ button:focus {outline:0;}
     right: 0;
     margin-right: 5%;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -474,7 +349,7 @@ button:focus {outline:0;}
     margin-right: 5%;
     margin-top: 100px;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -530,7 +405,7 @@ button:focus {outline:0;}
 
 #chaptertitle_04 {
     font-size: 35px;
-    font-family: 'EuclidFlex-Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -543,7 +418,7 @@ button:focus {outline:0;}
 
 #intro_04 {
     font-size: 27px;
-    font-family: 'EuclidFlex-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 35px;
     width: 60%;
     margin: auto;
@@ -555,7 +430,7 @@ button:focus {outline:0;}
 
 #body_04 {
     font-size: 15px;
-    font-family: 'EuclidFlex-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 25px;
     width: 60%;
     margin: auto;
@@ -568,7 +443,7 @@ button:focus {outline:0;}
 
 #alternative_03 {
     font-size: 27px;
-    font-family: 'EuclidFlex-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 35px;
     width: 60%;
     margin: auto;
@@ -590,14 +465,14 @@ button:focus {outline:0;}
     margin-right: 5%;
     position: absolute;
     font-size: 12.5px;
-    font-family: 'EuclidFlex-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 15px;
     color: #009a7b;
 }
 
 #chaptertitle_05 {
     font-size: 30px;
-    font-family: 'GT-America-Bold', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 20px;
     width: 100%;
     margin: auto;
@@ -607,7 +482,7 @@ button:focus {outline:0;}
 
 #intro_05 {
     font-size: 15px;
-    font-family: 'GT-America-Bold', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 20px;
     width: 100%;
     margin: auto;
@@ -618,7 +493,7 @@ button:focus {outline:0;}
 
 #body_05 {
     font-size: 15px;
-    font-family: 'GT-America-Regular', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 22px;
     width: 60%;
     margin: auto;
@@ -634,7 +509,7 @@ button:focus {outline:0;}
     width: 50%;
     left: 0;
     font-size: 12.5px;
-    font-family: 'GT-America-Regular', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 15px;
     color: #14467b;
     padding-top: 25px;
@@ -647,7 +522,7 @@ button:focus {outline:0;}
 
 #body_06 {
     font-size: 18px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 35px;
     width: 50%;
     float: left;
@@ -666,7 +541,7 @@ button:focus {outline:0;}
     width: 100%;
     left: 0;
     font-size: 12.5px;
-    font-family: 'HelveNeuMed', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #555555;
 }
@@ -684,7 +559,7 @@ button:focus {outline:0;}
     width: 60%;
     background-color: #102a4d;
     color: white;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 10px;
 }
 
@@ -693,7 +568,7 @@ button:focus {outline:0;}
 }
 
 #DIY {
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 50px;
     left: 5%;
     position: absolute;
@@ -704,7 +579,7 @@ button:focus {outline:0;}
 #body_07 {
     position: relative;
     font-size: 16px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 23px;
     width: 50%;
     float: left;
@@ -729,7 +604,7 @@ button:focus {outline:0;}
     margin-top: 2.5%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -742,7 +617,7 @@ button:focus {outline:0;}
     width: 33%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -759,7 +634,7 @@ button:focus {outline:0;}
     width: 33%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -871,13 +746,13 @@ button:focus {outline:0;}
 
 #chaptertitle_06 {
     font-size: 45px;
-    font-family: 'TheMixSemiLight-Plain', sans-serif;
+    font-family: 'Slabo 27px', serif;
     line-height: 55px;
 }
 
 #intro_10 {
     font-size: 22px;
-    font-family: 'TheMixSemiLight-Plain', sans-serif;
+    font-family: 'Slabo 27px', serif;
     line-height: 35px;
     color: #504d4f;    
 }
@@ -887,7 +762,7 @@ button:focus {outline:0;}
     margin-left: 10%;
     margin-top: 4%;
     padding-left: 10%;
-    font-family: 'TheSansPlain', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #504d4f;
     font-size: 18px;
     line-height: 30px;
@@ -1020,7 +895,7 @@ button:focus {outline:0;}
 
 #chaptertitle_08 {
     font-size: 40px;
-    font-family: 'Interstate-Bold', sans-serif;
+    font-family: 'Overpass', sans-serif;
     line-height: 45px;
     text-transform: uppercase;
     width: 80%;
@@ -1036,7 +911,7 @@ button:focus {outline:0;}
 
 #body_13 {
     font-size: 18px;
-    font-family: 'Interstate-Regular', sans-serif;
+    font-family: 'Overpass', sans-serif;
     line-height: 28px;
     width: 80%;
     float: left;
@@ -1059,7 +934,7 @@ button:focus {outline:0;}
     margin-top: 5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1076,7 +951,7 @@ button:focus {outline:0;}
     width: 22.5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1097,7 +972,7 @@ button:focus {outline:0;}
     width: 22.5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1105,7 +980,7 @@ button:focus {outline:0;}
 
 #chaptertitle_14 {
     font-size: 32.5px;
-    font-family: 'rijksoverheidsanstext-bold-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -1158,7 +1033,7 @@ button:focus {outline:0;}
 
     #nav_01 {
         font-size: 16pt;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         line-height: 18pt;
         width: 70%;
         margin-top: -4px;
@@ -1174,7 +1049,7 @@ button:focus {outline:0;}
 
     #chaptertitle_01 {
         font-size: 16pt;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         font-weight: bold;
         line-height: 18pt;
         width: 70%;
@@ -1188,7 +1063,7 @@ button:focus {outline:0;}
 
     #intro_01 {
         font-size: 14pt;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         line-height: 16pt;
         width: 70%;
         margin: auto;
@@ -1200,7 +1075,7 @@ button:focus {outline:0;}
 
     #body_01 {
         font-size: 10pt;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         line-height: 12pt;
         width: 70%;
         margin: auto;
@@ -1208,7 +1083,7 @@ button:focus {outline:0;}
         padding-left: 25%;
         padding-right: 5%;
         padding-top: 2.5%;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
     }
 
     #footnote_01 {
@@ -1216,7 +1091,7 @@ button:focus {outline:0;}
         top: 620px;
         width: 18%;
         position: absolute;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         line-height: 9pt;
         font-size:7pt;
         page-break-inside:avoid;
@@ -1226,7 +1101,7 @@ button:focus {outline:0;}
         padding-right: 15%;
         width: 18%;
         position: absolute;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         line-height: 9pt;
         font-size:7pt;
         page-break-inside:avoid;
@@ -1234,7 +1109,7 @@ button:focus {outline:0;}
 
     #chaptertitle_02 {
         font-size: 16pt;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Cairo', sans-serif;
         font-weight: bold;
         line-height: 18pt;
         width: 70%;
@@ -1249,7 +1124,7 @@ button:focus {outline:0;}
 
     #intro_02 {
     font-size: 22px;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 25px;
     width: 60%;
     margin: auto;
@@ -1262,8 +1137,8 @@ button:focus {outline:0;}
 
 #body_02 {
     font-size: 17px;
-    font-family: 'INGMeWeb-Regular', sans-serif;
-    line-height: 25px;
+    font-family: 'Convergence', sans-serif;
+    line-height: 22px;
     width: 60%;
     margin: auto;
     float: left;
@@ -1283,7 +1158,7 @@ button:focus {outline:0;}
     right: 0;
     margin-right: 5%;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -1293,7 +1168,7 @@ button:focus {outline:0;}
 #startamovement {
     width: 110%;
     left: 5%;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     margin-top: 50px;
@@ -1313,7 +1188,7 @@ button:focus {outline:0;}
     right: 0;
     margin-right: 5%;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -1329,9 +1204,9 @@ button:focus {outline:0;}
     width: 25%;
     right: 0;
     margin-right: 5%;
-    margin-top: 100px;
+    margin-top: 75px;
     position: absolute;
-    font-family: 'INGMeWeb-Regular', sans-serif;
+    font-family: 'Convergence', sans-serif;
     line-height: 15px;
     font-size:12.5px;
     border: 1px solid lightgray;
@@ -1387,7 +1262,7 @@ button:focus {outline:0;}
 
 #chaptertitle_04 {
     font-size: 35px;
-    font-family: 'EuclidFlex-Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
@@ -1401,7 +1276,7 @@ button:focus {outline:0;}
 
 #intro_04 {
     font-size: 27px;
-    font-family: 'EuclidFlex-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 35px;
     width: 60%;
     margin: auto;
@@ -1413,7 +1288,7 @@ button:focus {outline:0;}
 
 #body_04 {
     font-size: 15px;
-    font-family: 'EuclidFlex-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 25px;
     width: 60%;
     margin: auto;
@@ -1427,14 +1302,14 @@ button:focus {outline:0;}
 #body_04-02 {
     z-index: -1;
     width: 100%;
-    height: 600px;
+    height: 625px;
     position: relative;
     background-color: white;
 }
 
 #alternative_03 {
     font-size: 27px;
-    font-family: 'EuclidFlex-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 35px;
     width: 60%;
     margin: auto;
@@ -1456,14 +1331,14 @@ button:focus {outline:0;}
     margin-right: 5%;
     position: absolute;
     font-size: 12.5px;
-    font-family: 'EuclidFlex-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 15px;
     color: #009a7b;
 }
 
 #chaptertitle_05 {
     font-size: 30px;
-    font-family: 'GT-America-Bold', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 20px;
     width: 100%;
     margin: auto;
@@ -1473,7 +1348,7 @@ button:focus {outline:0;}
 
 #intro_05 {
     font-size: 15px;
-    font-family: 'GT-America-Bold', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 20px;
     width: 100%;
     margin: auto;
@@ -1484,7 +1359,7 @@ button:focus {outline:0;}
 
 #body_05 {
     font-size: 15px;
-    font-family: 'GT-America-Regular', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 22px;
     width: 60%;
     margin: auto;
@@ -1500,7 +1375,7 @@ button:focus {outline:0;}
     width: 50%;
     left: 0;
     font-size: 12.5px;
-    font-family: 'GT-America-Regular', sans-serif;
+    font-family: 'Chivo', sans-serif;
     line-height: 15px;
     color: #14467b;
     padding-top: 25px;
@@ -1513,13 +1388,14 @@ button:focus {outline:0;}
 
 #body_06 {
     font-size: 18px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 35px;
     width: 50%;
     float: left;
     margin-left: 15%;
     margin-right: 35%;
     padding-left: 2.5%;
+    margin-top: -40px;
     color: #555555;
 }
 
@@ -1532,7 +1408,7 @@ button:focus {outline:0;}
     width: 100%;
     left: 0;
     font-size: 12.5px;
-    font-family: 'HelveNeuMed', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #555555;
 }
@@ -1550,7 +1426,7 @@ button:focus {outline:0;}
     width: 60%;
     background-color: #102a4d;
     color: white;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 10px;
 }
 
@@ -1559,7 +1435,7 @@ button:focus {outline:0;}
 }
 
 #DIY {
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 50px;
     left: 5%;
     position: absolute;
@@ -1570,7 +1446,7 @@ button:focus {outline:0;}
 #body_07 {
     position: relative;
     font-size: 16px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 21px;
     width: 50%;
     float: left;
@@ -1595,7 +1471,7 @@ button:focus {outline:0;}
     margin-top: 2.5%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1603,12 +1479,12 @@ button:focus {outline:0;}
 
 #sexpistols-01 {
     position: absolute;
-    margin-top: 17.5%;
+    margin-top: 21%;
     right: 0;
     width: 33%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1620,12 +1496,12 @@ button:focus {outline:0;}
 
 #sexpistols-02 {
     position: absolute;
-    margin-top: 53%;
+    margin-top: 57%;
     right: 0;
     width: 33%;
     margin-right: 3%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1740,14 +1616,14 @@ button:focus {outline:0;}
 
 #chaptertitle_06 {
     font-size: 45px;
-    font-family: 'TheMixSemiLight-Plain', sans-serif;
+    font-family: 'Slabo 27px', serif;
     line-height: 55px;
     width: 80%;
 }
 
 #intro_10 {
     font-size: 22px;
-    font-family: 'TheMixSemiLight-Plain', sans-serif;
+    font-family: 'Slabo 27px', serif;
     line-height: 35px;
     width: 80%;
     color: #504d4f;    
@@ -1757,7 +1633,7 @@ button:focus {outline:0;}
     background-color: white;
     margin-top: 4%;
     padding-left: 10%;
-    font-family: 'TheSansPlain', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #504d4f;
     font-size: 18px;
     line-height: 30px;
@@ -1892,7 +1768,7 @@ button:focus {outline:0;}
 
 #chaptertitle_08 {
     font-size: 40px;
-    font-family: 'Interstate-Bold', sans-serif;
+    font-family: 'Overpass', sans-serif;
     line-height: 45px;
     text-transform: uppercase;
     width: 80%;
@@ -1908,7 +1784,7 @@ button:focus {outline:0;}
 
 #body_13 {
     font-size: 18px;
-    font-family: 'Interstate-Regular', sans-serif;
+    font-family: 'Overpass', sans-serif;
     line-height: 28px;
     width: 80%;
     float: left;
@@ -1917,7 +1793,7 @@ button:focus {outline:0;}
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 4.5%;
+    padding-bottom: 50%;
     background-color: white;
 }
 
@@ -1931,7 +1807,7 @@ button:focus {outline:0;}
     margin-top: 5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1948,7 +1824,7 @@ button:focus {outline:0;}
     width: 22.5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1969,7 +1845,7 @@ button:focus {outline:0;}
     width: 22.5%;
     margin-right: 10%;
     font-size: 12.5px;
-    font-family: 'HelveNeuRom', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 15px;
     color: #4e5251;
     background-color: white;
@@ -1977,7 +1853,7 @@ button:focus {outline:0;}
 
 #end {
     font-size: 25px;
-    font-family: 'rijksoverheidsanstext-regular-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     line-height: 25px;
     width: 50%;
     float: left;
@@ -1992,7 +1868,7 @@ button:focus {outline:0;}
 
 #chaptertitle_14 {
     font-size: 32.5px;
-    font-family: 'rijksoverheidsanstext-bold-webfont', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: bold;
     line-height: 32.5px;
     width: 60%;
